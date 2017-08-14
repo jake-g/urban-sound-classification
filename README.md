@@ -1,14 +1,7 @@
 # Sound Classification
 
-### TODO
-* improve RNN
-* tune params
-* improve accuracy
-
 ### Setup
-On area51 the features and labels have already been serialized in `/data/urban_sound/`
-
-On another machine....
+* Get data
 * Edit `PATHS.yaml`
 * run `dump_features`
 
@@ -35,7 +28,7 @@ On another machine....
 * Features: mfcc coefficients
 
 ### Dataset
- [UrbanSound8k](https://serv.cusp.nyu.edu/projects/urbansounddataset/urbansound8k.html)
+ [UrbanSound8k](https://serv.cusp.nyu.sedu/projects/urbansounddataset/urbansound8k.html)
 
 ### Features
 `dump_features.py` extracts different features from the dataset and saves each feature set with an accompanying labels file (see `utils.py` for feature notes). Different models use different features. 
@@ -43,11 +36,10 @@ On another machine....
 **WARNING** takes nearly 2 hrs and 8 gbs of space
 
 ### Requirements
-Python 2.7
+Python
 * Keras
 * Tensorflow 11
 * Numpy
 * Matplotlib
 * Librosa
 
---jake
