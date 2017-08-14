@@ -1,0 +1,10 @@
+*.pyc
+*.p
+.DS_Store
+.ipynb_checkpoints
+.idea
+results/
+env/
+logs/
+old/
+confusion_plots/

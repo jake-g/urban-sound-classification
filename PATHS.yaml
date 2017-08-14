@@ -1,0 +1,9 @@
+# features and labels
+extracted_data: '/data/urban_sound/'
+
+# original audio samples
+audio_data: '/data/urban_sound/audio/'
+# plot and serialized model
+model_save: './results/'
+
+tensorboard_logs: './logs'
