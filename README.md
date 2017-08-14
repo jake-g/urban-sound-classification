@@ -27,6 +27,9 @@
 * untested
 * Features: mfcc coefficients
 
+### Project Paper
+[Sound Classification paper](http://jakegarrison.me/docs/Sound%20Classification_EE562.pdf)
+
 ### Dataset
  [UrbanSound8k](https://serv.cusp.nyu.sedu/projects/urbansounddataset/urbansound8k.html)
 
